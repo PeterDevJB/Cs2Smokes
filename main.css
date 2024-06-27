@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/imagem/cs2-fundo.png);
+    background-size: auto;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .container h1 {
+    padding: 24px;
+    font-family: "Candal", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.card a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: "Candal", sans-serif;
+}
+
+.container-card {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 600px;
+    height: 500px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Candal", sans-serif;
+    color: black;
+}
