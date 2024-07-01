@@ -13,11 +13,18 @@ body {
     flex-direction: column;
 }
 
-header .container h1 {
+header .container h1{
     padding: 24px;
     font-family: "Candal", sans-serif;
     text-align: center;
     font-size: 50px;
+}
+
+footer h2 {
+    padding: 16px;
+    font-family: "Candal", sans-serif;
+    text-align: center;
+    font-size: 25px;
 }
 
 .card a {
@@ -38,13 +45,13 @@ header .container h1 {
     transition: 0.3s;
 }
 
-.card:hover {
+.card:hover{
     transform: scale(1.03);
 }
 
 .card img {
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
 }
 
 a {
@@ -52,4 +59,30 @@ a {
     font-size: 24px;
     font-family: "Candal", sans-serif;
     color: black;
+}
+
+.footer .footer-icons a{
+    margin: 24px;
+    transition:color 0.1s ease-in-out;
+    transition: 0.3s;
+}
+
+.footer-icons{
+    transition: 0.3s;
+}
+
+.footer-icons a{
+    transform: scale(1.03);
+}
+
+.footer-icons a.icone-instagram:hover {
+    color: rgb(220, 46, 243);
+}
+
+.footer-icons a.icone-facebook:hover {
+    color: rgb(46, 115, 243);
+}
+
+.footer-icons a.icone-youtube:hover {
+    color: rgb(255, 69, 69);
 }
