@@ -13,6 +13,10 @@ body {
     flex-direction: column;
 }
 
+body a{
+    margin-top: 24px;
+}
+
 header .container h1{
     padding: 24px;
     font-family: "Candal", sans-serif;
@@ -85,4 +89,10 @@ a {
 
 .footer-icons a.icone-youtube:hover {
     color: rgb(255, 69, 69);
+}
+
+.icon-home{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
 }
